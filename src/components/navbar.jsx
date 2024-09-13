@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { NavLink } from 'react-router-dom';
 
 const Navbar = ({onSignUpClick }) => {
     return (
@@ -9,7 +8,7 @@ const Navbar = ({onSignUpClick }) => {
                 className='p-5 flex justify-between items-center border-b-2 border-gray-300 cursor-pointer'
                 initial={{ opacity: 0, y: -20 }} 
                 animate={{ opacity: 1, y: 0 }} 
-                transition={{ duration: 0.5 }} 
+                transition={{ duration: 0.7 }} 
             >
                 <h1 className='font-bold'>
                     earnwave
